@@ -17,7 +17,12 @@ else {
     status = "You have a short name!";
 }
 
+
+//Define a function called percentage. It takes two parameters: num and denom.
 var percentage = function(num, denom) {
     var result = (num / denom) * 100;
     return result;
 }
+
+//Call the function percentage.
+var p1 = percentage(23, 30);
