@@ -5,7 +5,7 @@ var main = function() {
     //.click() means something will happen when the user clicks on the icon-menu HTML element.
     $('.icon-menu').click(function() {
         //animate method. menu's left offset will be set to equal to 0px, over 200ms.
-        //Using a period to select a class.
+        //Use a period to select a class.
         $('.menu').animate({
             left: '0px'
         }, 200);
