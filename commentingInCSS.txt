@@ -1,0 +1,4 @@
+Commenting in CSS is done with the
+/*  ..... */ format.
+
+The // commenting is not supported.
