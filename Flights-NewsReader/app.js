@@ -8,12 +8,11 @@ var main = function() {
   });
 
   $(document).keypress(function(event) {
+    //o key.
     if(event.which == 111) {
-      $('.description').hide();
-
-      $('.current').children('.description').show();
+      $('.current').children('.description').toggle();
     }
-
+    //n key.
     else if(event.which == 110) {
       var currentArticle = $('.current');
       var nextArticle = currentArticle.next();
