@@ -1,0 +1,49 @@
+$() has two main uses:
+1. to selecte existing HTML elements on the page.
+    $('h1') selects all h1 HTML elements on the page.
+    
+2. To create new HTML elements to add to the page.
+    $('<h1>') Creates a new h1 HTML element.
+    
+    
+    
+    
+    
+The .text() method adds text to an HTML element, or gets the text an HTML contains.
+$('li').text('Old Item') : selects the li elements and replaces its text with 'Old Item'
+
+$('h1').text() : selects the h1 elements and gets the text it contains.
+
+
+
+
+
+The .appendTo() method adds HTML elements to the end of the selected element.
+Example:
+$('.btn').click(function() {
+  $('<li>').text('New item').appendTo('.items');
+});
+
+
+The .prependTo() method adds HTML elements to the beginning of the selected element.
+Example:
+$('.btn').click(function() {
+  $('<li>').text('New item').prependTo('.items');
+});
+
+
+The .remove() method removes the selected HTML element from the web page.
+Example:
+$('.btn').click(function() {
+  $('.selected').remove();
+});
+
+
+
+These six jQuery methods let you control more aspects of HTML elements:
+.hide() hides the selected HTML element
+.show() displays an element
+.toggle() alternates hiding and showing an element
+.addClass() adds a CSS class to an element
+.removeClass() removes a class from an element
+.toggleClass() alternates adding and removing a class from an element
