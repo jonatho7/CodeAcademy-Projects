@@ -1,0 +1,26 @@
+
+The .slideDown() method shows the selected HTML element by sliding it down
+$('body').click(function() {
+  $('.slide').slideDown(600).addClass('active-slide');
+});
+
+
+The .slideUp() method hides the selected HTML element by sliding it up.
+$('body').click(function() {
+  $('.slide').slideUp(600).addClass('active-slide');
+});
+
+
+The .fadeIn() method shows the selected HTML element by fading it in.
+$('body').click(function() {
+  $('.slide').fadeIn(600).addClass('active-slide');
+});
+
+
+The .fadeOut() method hides the selected HTML element by fading it out.
+$('body').click(function() {
+  $('.slide').fadeOut(600).addClass('active-slide');
+});
+
+
+The .animate() method lets you create your own custom animations. HTML elements can be animated by specifying the CSS properties to change to over a time duration.
